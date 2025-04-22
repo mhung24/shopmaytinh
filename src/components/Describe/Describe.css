@@ -1,0 +1,51 @@
+.des_title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.wrap_list-detail-des {
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.detail_des {
+  position: relative;
+  overflow: hidden;
+  padding: 12px !important;
+}
+
+.seemore {
+  position: absolute;
+  bottom: 24px;
+  width: 98%;
+}
+
+.seemore > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #e5e6ed;
+  border-radius: 4px;
+  height: 36px;
+}
+
+.destail_des-item {
+  overflow: hidden;
+}
+
+.no_seemore {
+  height: 400px;
+}
+
+.no_seemore-item {
+  height: 276px;
+}
+
+.true_seemore {
+  height: 700px;
+}
+
+.true_seemore-item {
+  min-height: 276px;
+}

@@ -1,0 +1,150 @@
+.wrap_item-cart {
+  display: flex;
+  align-items: start;
+  width: 94%;
+  margin: 0 auto;
+  padding: 10px 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.wrap_item-cart-img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.wrap_item-cart-img > img {
+  width: 100%;
+}
+
+.item-cart-details {
+  width: 234px;
+}
+.item-listcart-paynow {
+  width: 100%;
+}
+
+.item-cart-details-name {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 3em;
+  line-height: 1.5em;
+  margin-right: 4px;
+}
+
+.item-cart-details-price {
+  font-weight: 700;
+  color: #ed3324;
+  margin-right: 8px;
+}
+
+.total_price {
+  font-weight: 600;
+  color: #ed3324;
+}
+
+.header_btn-pay {
+  background-color: #ed3324;
+  color: #fff;
+  width: 100%;
+  margin: 8px 0 15px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.header_btn-pay > a {
+  padding: 10px 110px;
+}
+
+.header_btn-pay:hover {
+  background-color: #f54134;
+}
+
+.wrap_list-cart {
+  height: 240px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.wrap_input-search {
+  position: relative;
+}
+
+.wrap_input-search:focus > .form_item-search {
+  display: block;
+}
+
+.form_item-search {
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  top: 46px;
+  border-radius: 12px;
+  height: 200px;
+  overflow-y: auto;
+}
+
+.list_item-search {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+}
+
+.wrap_item-search-img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.item-seacrh-details {
+  margin-left: 10px;
+  width: calc(100% - 70px);
+}
+
+.item-search-details-name {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 3em;
+  line-height: 1.5em;
+  margin-right: 4px;
+}
+
+.item-search-details-price {
+  font-weight: 700;
+  color: #ed3324;
+  margin-right: 8px;
+}
+
+.wrap_btn-paynow {
+  width: 40%;
+  background-color: #eaeaea;
+  padding: 12px;
+}
+
+.btn_cart-pay > button {
+  background-color: #ed3324;
+  color: #fff;
+  width: 100%;
+  margin: 8px 0 15px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn_cart-pay > button > a {
+  padding: 10px 90px;
+}
+
+.btn_cart-installment > button {
+  background-color: #f1eb1f !important;
+  color: #235d97 !important;
+}

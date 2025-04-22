@@ -1,0 +1,23 @@
+.wrap_content {
+  display: flex;
+  width: 1180px;
+  margin: 0 auto;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.wrap_content-item {
+  flex: 1;
+  margin-top: 20px;
+}
+
+/* .wrap_content-item:last-child, */
+.wrap_content-item:first-child {
+  flex: 2;
+}
+
+.wrap_content-item > p > a:hover {
+  color: #dd0115;
+}

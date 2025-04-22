@@ -1,0 +1,127 @@
+.wrap_checkouts {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding: 50px 0;
+  min-height: 919px;
+}
+
+.wrap_checkout-infor-user {
+  width: 600px;
+}
+
+.wrap_input-infor-user {
+  box-shadow: 0 0 0 1px #d9d9d9;
+  background-color: white;
+  color: #333333;
+  border-radius: 4px;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  word-break: normal;
+  padding: 2px 6px;
+  font-size: 14px;
+  margin-top: 14px;
+}
+
+.wrap_input-infor-user > input {
+  outline: none;
+  width: 100%;
+}
+
+.content-box {
+  box-shadow: 0 0 0 1px #d9d9d9;
+  border-radius: 4px;
+  background: #fff;
+  color: #737373;
+  margin-top: 10px;
+}
+
+/* .field-required {
+  width: 70%;
+} */
+
+.wrap_field-required {
+  background-color: #fafafa;
+  display: table;
+  box-sizing: border-box;
+  width: 100%;
+  border-top: 1px solid #d9d9d9;
+  padding: 0 14px;
+  height: 75px;
+}
+
+.wrap_radio {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 14px;
+}
+
+.bd_wrap-radio {
+  border-top: 1px solid #d9d9d9;
+}
+
+.checkout_btn-paynow {
+  background-color: #338dbc;
+  color: #fff;
+  padding: 10px 12px;
+  border-radius: 4px;
+  margin-top: 18px;
+}
+
+.infor_order {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.infor_order > p {
+  color: #737373;
+  font-size: 14px;
+  font-style: italic;
+  margin: 4px;
+}
+
+.infor_order > h1 {
+  font-size: 16px;
+
+  font-style: italic;
+}
+
+.wrap_list-item-cart {
+  width: 800px;
+}
+
+.wrap_checkout-infor {
+  width: 600px;
+}
+
+.check_out-infor-img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.check_out-infor-title {
+  width: calc(100% - 70px - 90px);
+  margin-left: 12px;
+  word-break: break-word;
+  font-weight: 600;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.list_checkout-infor {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.wrap_checkout-infor-item {
+  border-bottom: 1px solid #ccc;
+}

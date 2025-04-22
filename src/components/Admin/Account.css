@@ -1,0 +1,367 @@
+.wrap_infor_account {
+  position: relative;
+  margin-right: 80px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.wrap_infor_account > img {
+  width: 40px;
+  margin-left: 10px;
+}
+.wrap_infor_account:hover > .wrap_account {
+  display: block;
+}
+
+.wrap_account {
+  display: none;
+  margin: 10px 0;
+  position: absolute;
+  top: 62px;
+  right: -2px;
+  width: 320px;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: 12px;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 9999;
+}
+
+.wrap_account > img {
+  width: 50px;
+  margin: 0 auto;
+}
+
+.wrap_account::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  top: -38px;
+  left: 0;
+}
+
+.wrap_account::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+  top: -10px;
+  right: 20px;
+}
+
+.wrap_account-logout {
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.wrap_account-logout > button {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  width: 80%;
+  cursor: pointer;
+}
+
+.wrap_account-logout > button:hover {
+  background-color: #ccc;
+}
+
+.account_content {
+  background-color: #f4f6f8;
+  min-height: calc(918px - 66px);
+  margin-top: 66px;
+}
+
+.account_content-list {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.account_content-list > h1 {
+  border-bottom: 1px solid #000;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.account_content-list > h2 {
+  border-bottom: 1px solid #000;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.wrap_account-list-title {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 240px;
+  -ms-flex: 1 1 240px;
+  flex: 1 1 240px;
+  padding: 0 64px 0 0;
+}
+
+.wrap_account-list {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2 1 480px;
+  -ms-flex: 2 1 480px;
+  flex: 2 1 480px;
+  max-width: 100%;
+  min-width: 0;
+  border-radius: 3px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 0 1px rgba(63, 63, 68, 0.05),
+    0 1px 3px 0 rgba(63, 63, 68, 0.15);
+  box-shadow: 0 0 0 1px rgba(63, 63, 68, 0.05),
+    0 1px 3px 0 rgba(63, 63, 68, 0.15);
+}
+
+.wrap_account-input-img {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 12px;
+}
+
+.wrap_account-input-img > img {
+  width: 50px;
+}
+.wrap_account-input {
+  display: flex;
+  width: 100%;
+  padding: 10px 12px;
+  justify-content: space-between;
+}
+
+.wrap_account-input-item {
+  width: 48%;
+}
+
+.wrap_account-input-item > p {
+  margin-bottom: 10px;
+}
+
+.wrap_account-input-item > input {
+  padding: 8px 10px;
+  border: 1px solid #c1c7d0;
+  width: 100%;
+  outline: none;
+  border-radius: 3px;
+}
+
+.wrap_account-select {
+  padding: 8px 10px;
+  margin: 12px;
+  border: 1px solid #c1c7d0;
+  width: 96%;
+  outline: none;
+}
+
+.btn_update-account {
+  padding: 8px 10px;
+  margin: 20px 10px;
+  border: 1px solid #c1c7d0;
+  background-color: #01579b;
+  border-radius: 4px;
+  color: #fff;
+  text-align: end;
+}
+
+.wrap_account-input-item_forget {
+  width: 100% !important;
+}
+
+th,
+td {
+  padding: 8px 10px !important;
+  text-align: start !important;
+}
+
+.content_list-table-orders {
+  background-color: #fff;
+  border-radius: 4px;
+  margin-top: 20px;
+  width: 1200px;
+}
+
+.table_admin-list-order {
+  margin: 0;
+}
+
+.table_admin-list-order > thead > tr {
+  background-color: #e6e6e6;
+  padding: 6px 8px;
+}
+
+.table_admin-list-order-td:hover {
+  background-color: #e6e6e6;
+}
+
+.omni-badge {
+  display: inline-block;
+  padding: 0 8px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  height: 24px;
+  box-sizing: border-box;
+  line-height: 22px;
+  width: fit-content;
+}
+
+.order-status-badge-success {
+  color: #16a249;
+  background-color: #f2fdf5;
+  border: 1px solid #16a249;
+}
+
+.order-status-badge-warning {
+  background-color: #fefce7;
+  color: #c88a04;
+  border: 1px solid #c88a04;
+}
+
+.order-status-badge-error {
+  color: #df2a2a;
+  background-color: #fdf2f2;
+  border: 1px solid #df2a2a;
+}
+
+.order-status-badge-info {
+  color: #2463eb;
+  border: 1px solid #2463eb;
+  background-color: #f0f6ff;
+}
+
+.admin_infor-cus {
+  width: 730px;
+}
+
+.admin_table-break-word {
+  width: 650px !important;
+}
+
+.texl_cancel {
+  color: #fc625d;
+}
+
+.circle-status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: solid 2.5px #36a3f7;
+  display: inline-block;
+}
+
+.circle-status-cancel {
+  border: solid 2px #fc625d;
+}
+
+.content_detail_admin-order {
+  width: 1200px;
+}
+
+.omni-badge-border {
+  border-top: 1px solid #ccc;
+}
+
+.btn_print {
+  background-color: #c1c7d0;
+  width: 80px;
+  color: #fff;
+  height: 40px;
+  border-radius: 4px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.content_detail_admin-order-item {
+  width: 930px;
+  /* display: flex; */
+}
+
+.table_detail-order-admin {
+  margin-top: 10px;
+}
+
+.table_detail-order-admin > thead > tr {
+  background-color: #fafafa;
+}
+
+.table_detail-order-admin-img {
+  width: 70px;
+  height: 56px;
+  border: 1px solid #fafafa;
+}
+
+.table_detail-order-admin-img > img {
+  width: 70px !important;
+  height: 56px !important;
+  object-fit: cover;
+}
+
+.omni-layout-card--section {
+  width: 450px;
+  padding: 12px;
+}
+
+.omni-layout-card--section-input {
+  margin-top: 10px;
+}
+
+.omni-layout-card--section-input > input {
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-top: 8px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.content_detail_admin-order-infor-customer {
+  background-color: #fff;
+  margin-left: 20px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.detail_admin-order-infor-customer-title {
+  border-bottom: 1px solid #ccc;
+  padding: 16px;
+}
+
+.table-break-word-admin {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  pointer-events: auto;
+  width: 96%;
+  word-break: break-word;
+  font-weight: 600;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 3em;
+  line-height: 1.5em;
+  margin-right: 4px;
+}

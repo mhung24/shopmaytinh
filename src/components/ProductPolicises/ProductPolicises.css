@@ -1,0 +1,31 @@
+.media {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.media_body {
+  flex: 1;
+}
+
+.media_icon {
+  width: 24px;
+  height: 24px;
+}
+
+.product-policises {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-policises .media + * {
+  margin-top: 10px;
+  border-top: 1px dashed #f1f1f1;
+  padding-top: 10px;
+}

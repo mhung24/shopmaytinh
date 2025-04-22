@@ -1,0 +1,130 @@
+.search_comment {
+  align-items: center;
+  background-color: #fffbf8;
+  border: 1px solid #f9ede5;
+  border-radius: 2px;
+  box-sizing: border-box;
+  display: flex;
+  /* margin-bottom: 1rem; */
+  min-height: 5rem;
+  padding: 1.875rem;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.wrap_content-comment {
+  display: flex;
+}
+
+.wrap_content-comment-avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.tbl_star {
+  margin-right: 1.875rem;
+  text-align: center;
+}
+
+.star_wrap > p {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  border-radius: 2px;
+  height: 2rem;
+  line-height: 2rem;
+  margin-bottom: 0.3125rem;
+  margin-right: 0.5rem;
+  margin-top: 0.3125rem;
+  min-width: 6.25rem;
+  padding: 0 0.625rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.list_content-comment {
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: #f0f2f5;
+  min-height: 40px;
+  max-width: 94%;
+  border-radius: 6px;
+  padding: 0px 12px;
+  width: 100%;
+}
+
+.icon_comment {
+  display: flex;
+  font-size: 12px;
+}
+
+.wrap_detail_comment {
+  height: 300px;
+  overflow: auto;
+}
+
+.wrap_nextdata-cmt {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.wrap_my-comment {
+  width: 100%;
+  margin-top: 12px;
+  border-top: 1px solid #ccc;
+}
+
+.my_comment-star {
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.my_comment-star > p {
+  margin-right: 12px;
+}
+
+.my_comment {
+  display: flex;
+  align-items: start;
+  padding: 12px;
+}
+
+.my_comment > img {
+  width: 50px;
+  height: 50px;
+}
+.wrap_form_comment {
+  width: 100%;
+
+  margin-left: 10px;
+  width: 93%;
+  align-items: start;
+}
+
+.form_comment {
+  background-color: #f0f2f5;
+  min-height: 80px;
+  border-radius: 6px;
+  display: flex;
+}
+
+.form_comment > textarea {
+  outline: none;
+  padding: 0px 12px;
+  width: 96%;
+  margin-top: 10px;
+  scrollbar-width: none;
+}
+
+.no_login-cmt {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.no_list-comment {
+  text-align: center;
+  height: 200px;
+  line-height: 200px;
+}

@@ -1,0 +1,121 @@
+.wrap_form-search-customer {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  align-items: center;
+  padding: 6px 8px;
+  margin-top: 10px;
+}
+
+.content_admin-customer {
+  padding: 0 !important;
+}
+.wrap_form-search-customer > input {
+  width: 100%;
+  margin-left: 10px;
+  font-size: 18px;
+  outline: none;
+}
+
+.table_customer-admin {
+  margin-top: 10px;
+}
+
+.table_customer-admin > thead > tr {
+  background-color: #f9fafb;
+}
+
+.table_customer-admin > tbody > tr:hover {
+  background-color: #f9fafb;
+}
+
+.detail_customer-left {
+  width: 830px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-right: 18px;
+}
+
+.detail_customer-right {
+  width: 400px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  height: 350px;
+}
+
+.content_customer-detail {
+  display: flex;
+  width: 1200px;
+}
+
+.hrv-avatar {
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #f4f6f8;
+  color: #fff;
+  white-space: nowrap;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 50%;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hrv-avatar-circle {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: rgb(41, 121, 255);
+}
+
+.list_detail-customer-statistics,
+.list_detail-customer-order {
+  background-color: #eaebed;
+  width: 250px;
+  height: 100px;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 14px;
+}
+
+.list_detail-customer-statistics {
+  width: 525px;
+  height: 328px;
+}
+
+.detai_customer-list-myorder {
+  width: 830px;
+  background-color: #fff;
+  padding: 18px;
+  border-radius: 8px;
+  margin-right: 18px;
+  margin-top: 10px;
+}
+
+.customer_detail-infor {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 16px;
+}
+
+.detail_customer-list-myorder-title {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.detail_customer-list-myorder-ordes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
